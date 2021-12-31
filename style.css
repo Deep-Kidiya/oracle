@@ -111,6 +111,7 @@ header .btn {
     right: 0;
     top: 22px;
     display: none;
+    outline: none;
 }
 
 /*  End of Navigation */
@@ -527,6 +528,68 @@ footer {
     .three-section .box-2, .three-box {
         width: 48%;
         margin-top: 50px;
+    }
+
+    .images p {
+        padding-top: 20px;
+    }
+
+    .three-section, .three-section .red-font, .three-section h2 {
+        text-align: center;
+    }
+
+    .two-box h2, .three-section h2 {
+        padding: 5px;
+    }
+
+    .banner-image, .about {
+        width: 80%;
+    }
+
+}
+
+@media only screen and (max-width:700px) {
+    .three-section .box-2, .three-box {
+        width: 96.5%;
+    }
+
+    .contact-box {
+        width: 96.5%;
+    }
+
+    .menu-box ul {
+        justify-content: flex-start;
+    }
+
+    .menu-box li {
+        padding-right: 8%;
+    }
+}
+
+
+@media only screen and (max-width:410px) {
+    .box-1 {
+        padding-top: 50px;
+    }
+
+    .img-box {
+        width: 100%;
+    }
+
+    .box h1 {
+        font-size: 3.9rem;
+    }
+
+    .toggle {
+        top: 12px;
+    }
+
+    .menu-box li {
+        padding: 1% 3%;
+    }
+
+    .footer-list li {
+        padding: 1% 3%;
     }
 
 }
